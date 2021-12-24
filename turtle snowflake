@@ -1,0 +1,10 @@
+import turtle
+import random
+pat = turtle.Turtle()
+turtle.Screen().bgcolor("grey")
+colours = ["cyan", "purple", "white", "blue"]
+pat.penup()
+pat.forward(90)
+pat.left(45)
+pat.pendown()
+def  branch():
